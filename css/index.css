@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto:wght@300;400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.container {
+    width: 100%;
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background-color: #2f3038;
+
+}
+
+/* ===== Start Nav ===== */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 6%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+.logo-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 15px;
+}
+
+.links a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* ===== End Nav ===== */
+/* ===== Start Landing Content ===== */
+.landing-content {
+    width: 671px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 3rem;
+
+}
+
+.image {
+    flex-basis: 45%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.text {
+    flex-basis: 55%;
+
+}
+
+.text h1, .text p {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 300;
+}
+
+.text h1 {
+    margin-bottom: 0;
+}
+
+.text .btn {
+    width: 120px;
+    display: block;
+    background-color: #bc3a80;
+    text-decoration: none;
+    padding: 9px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+}
+
+/* ===== End Landing Content ===== */
