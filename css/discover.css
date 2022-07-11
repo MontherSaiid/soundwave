@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .container {
@@ -130,6 +131,52 @@ nav {
 .dis-image img {
     width: 265px;
     height: 265px;
+    border-radius: 10px;
 }
 
 /* ===== End Discover ===== */
+/* ===== Start Footer ===== */
+
+footer {
+    background-color: #202027;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    gap: 15px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-right: 32px;
+}
+
+.social li {
+    display: flex;
+    align-items: center;
+}
+
+.social li img {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+/* ===== End Footer ===== */
