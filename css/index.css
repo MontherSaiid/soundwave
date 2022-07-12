@@ -14,7 +14,52 @@ body {
 
 header {
     background-color: #2f3038;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
 
+.circle_1 {
+    width: 63px;
+    height: 63px;
+    background-color: #2c3849;
+    top: -10px;
+    right: 266px;
+}
+
+.circle_2 {
+    width: 120px;
+    height: 120px;
+    background-color: #2c3849;
+    top: 87px;
+    right: 460px;
+}
+
+.circle_3 {
+    width: 200px;
+    height: 200px;
+    background-color: #443243;
+    top: 265px;
+    left: 16px;
+
+}
+
+.circle_4 {
+    width: 45px;
+    height: 45px;
+    background-color: #443243;
+    top: 388px;
+    left: 368px;
+}
+
+.circle_5 {
+    width: 268px;
+    height: 268px;
+    background-color: #2c3849;
+    top: 328px;
+    right: -26px;
+    position: absolute;
+    border-radius: 50%;
 }
 
 /* ===== Start Nav ===== */
@@ -160,6 +205,14 @@ footer a {
     width: 14px;
     height: 14px;
     margin-right: 5px;
+}
+
+/* ===== End Footer ===== */
+/* ===== Start Class Global ===== */
+.circle {
+    z-index: -1;
+    position: absolute;
+    border-radius: 50%;
 }
 
 /* ===== End Footer ===== */
