@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1 {
+    margin: 0;
+}
+
+header {
+    background-color: #2f3038;
+
+}
+
+/* ===== Start Nav ===== */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 6%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+.logo-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 15px;
+}
+
+.links a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* ===== End Nav ===== */
+/* ===== Start Comment ===== */
+.comment {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 87px;
+}
+
+.comment-text h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.comment-text span {
+    color: #bc3a80;
+    font-size: 2.5rem;
+}
+
+.comment-form {
+    background-color: #202027;
+    padding: 20px 50px;
+    border-radius: 15px;
+}
+
+.comment-form label {
+    color: #fff;
+}
+
+.comment-form-input input, .comment-form-comment textarea {
+    width: 250px;
+    padding: 7px;
+    border-radius: 6px;
+    background-color: #202027;
+}
+
+.comment-form-comment textarea {
+    height: 100px;
+}
+
+
+.comment-form-input {
+    margin-bottom: 16px;
+}
+
+.comment-form-input input:focus, .comment-form-comment textarea:focus {
+    outline: none;
+    border: 2px solid #bc3a80;
+}
+
+/* ===== End Comment ===== */
+/* ===== Start Footer ===== */
+
+footer {
+    background-color: #202027;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    gap: 15px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-right: 32px;
+}
+
+.social li {
+    display: flex;
+    align-items: center;
+}
+
+.social li img {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+/* ===== End Footer ===== */
